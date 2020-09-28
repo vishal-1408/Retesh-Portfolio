@@ -1,6 +1,9 @@
-body{
-  padding:0;
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
 }
+
 
 /*////////////////////////////// navbar */
 
@@ -14,7 +17,9 @@ body{
 .cb{
   color:black;
 }
-
+nav{
+  background-color: white;
+}
 
 /* ///////////////////////////////particles.js div element */
 
@@ -26,10 +31,6 @@ body{
   z-index:-1;
 }
 
-#hola{
-  z-index: 0;
-  color:red;
-}
 /* ////////////////////////////////second part */
 .container{
   margin-left:0px;
@@ -60,4 +61,10 @@ body{
 
 .col-sm img {
   width:125%;
+}
+
+/* /////////////////////////////////////////////////////pointer of typewriter */
+
+.pointer{
+  border-right: 1px solid black;
 }

@@ -4,13 +4,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
         <link rel="stylesheet" href="./stylesheets/index.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg my-1" >
+        <nav class="navbar navbar-expand-lg my-1 sticky-top" >
             <a class="navbar-brand" href="/">R</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,6 @@
             </div>
         </nav>
 
-        <!-- <h1>HOLA!</h1> -->
        <div class="container" style="height:750px;">
             <div style="display: block;background-color: #f2f2f2;position:absolute;height:560px;width:1000px;z-index:-2;left:60px;top:100px;"></div>
             <div style="color:red;position: absolute;left:124px;top:100px;" ><img src="./images/HOLA.png" style="width:90%;height:90%;"></div>
@@ -38,23 +37,34 @@
        </div>
 
 
-  <div>
-      <div class="container">
-          <div class="row">
-              <div class="col-md-4">
-                  <p style="margin: 0px;margin-top: 100px;margin-right: 0px;margin-bottom: -8px;margin-left: 80px;font-family: 'Roboto Slab', serif;font-size: 200px;">I&#39;m</p>
+      <div class="container-fluid" style="height:500px;">
+          <div class="row" style="margin:10px">
+            <div style="background-color: black;height: 50%;width:30%;position: absolute;z-index: -1;top:880px;" data-aos="fade-right" data-aos-duration="1000"></div>
+              <div class="col-md-3  " data-aos="fade-in" data-aos-duration="1200" style="color:white">
+                  <p style="margin: 0px;margin-top: 100px;margin-right: 0px;margin-bottom: -8px;margin-left: 80px;font-family: 'Roboto Slab', serif;font-size: 130px;">I&#39;m</p>
               </div>
-              <div class="col-md-4"><img src="images/man.png" style="width: 85%;margin-left: -9px;margin-top: 25px;" /></div>
-              <div class="col-md-4">
-                  <p style="margin-top: 110px;margin-right: 0px;margin-bottom: 0px;margin-left: -64px;font-family: 'Roboto Slab', serif;font-size: 191px;">Retesh</p>
+              <div class="col-md-4"><img src="images/man.png" style="width: 80%;margin-left: -9px;margin-top: 25px;" /></div>
+              <div style="background-color:#f2f2f2;height: 70%;width:53%;position: absolute;z-index: -2;left:660px;margin-right:3px;" data-aos="fade-left" data-aos-duration="1000"></div>
+              <div class="col-md-5" style="color:black;">
+                  <p style="margin-top: 110px;margin-right: 0px;margin-bottom: 0px;margin-left: -64px;font-family: 'Roboto Slab', serif;font-size: 130px;"><span class="typewriter" data-words='["Retesh","An Enthusiast","A Learner","A Sportsman","An all Rounder" ]' data-wait="2800"></span></p>
               </div>
           </div>
       </div>
-  </div>
+
+     <div class="container" style="margin: 500px 40px;">
+        <!-- <div style="background: black;position: absolute;z-index: -2; height:100%; width:90%;"></div>
+        <div style="background:#DC3D24;position: absolute;z-index: -1; height:100%; width:90%;positon:"> -->
+       <img src="./images/aboutme.jpg" data-aos="fade-in" data-aos-duration="2600" alt="alternate" style="width:55%;height:100%;"></div>
+        <div data-aos="fade-down" data-aos-duration="2000" style="background:#DC3D24;position: absolute;top:1700px; height:100%; width:50%; z-index: -1; opacity: 0.9;"></div>
+        <div data-aos="fade-up" data-aos-duration="2200" style="background:#f2f2f2;position: absolute;top:1800px; height:120%; width:65%; z-index: -2;left:500px"></div>
+        <div data-aos="fade-in" data-aos-duration="2400" style="position: absolute;top:1900px; height:120%; width:30%; z-index: 1;left:800px;font-size:20px; color:black">Hi am Retesh Reddy Chintham! I am an energetic and enthusistic person!!Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+     </div>
 
 
-
-
+ <hr>
+ <h1>WORK</h1>
+ <h1>education</h1>
+ <h1>contact</h1>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
