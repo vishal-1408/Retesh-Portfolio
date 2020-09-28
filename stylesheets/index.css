@@ -9,3 +9,34 @@ nav-link{
 .cw{
     color:white;
 }
+
+.container{
+  margin-left:0px;
+  margin-right:0px
+}
+
+.ft1{
+  font-family: 'Roboto Slab', serif;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  padding:50px;
+}
+
+.ft2{
+  font-family: 'Roboto Slab', serif;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  padding:50px;
+}
+
+.ft p{
+  padding:50px
+}
+
+
+
+.col-sm img {
+  width:125%;
+}
