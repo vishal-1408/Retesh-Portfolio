@@ -1,15 +1,36 @@
-/*////////////////////////////// navbar */
-.nav-item{
-    margin-right:26vh;
+body{
+  padding:0;
 }
 
-nav-link{
-    color:black
+/*////////////////////////////// navbar */
+
+.nav-item{
+  margin-right:26vh;
 }
 .cw{
-    color:white;
+  color:white;
 }
 
+.cb{
+  color:black;
+}
+
+
+/* ///////////////////////////////particles.js div element */
+
+#particles-js{
+  background: black;
+  width:95%;
+  padding:0;
+  height:65%;
+  z-index:-1;
+}
+
+#hola{
+  z-index: 0;
+  color:red;
+}
+/* ////////////////////////////////second part */
 .container{
   margin-left:0px;
   margin-right:0px
