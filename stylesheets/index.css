@@ -171,7 +171,9 @@ nav{
 }
 
 /* //////////////////////////////////////////////////4th Part - Work/////////////////// */
-
+#worktag{
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
 .div41{
   position: absolute;
   right:90px;
@@ -207,12 +209,25 @@ nav{
   height:100%;
 }
 .img8{
-  width:75%;
+  width:80%;
+  height:100%;
+}
+.img9{
+  width:85%;
+  height:100%;
+}
+.img10{
+  width:80%;
   height:100%;
 }
 .span41{
   font-size:40px;display: inline-block;
 }
+
+#educationtag{
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+
 /* ////////////////////////////////////////////////////  5th-part/////////////////////// */
 .contact{
   margin-top:90px;
@@ -305,7 +320,7 @@ nav{
   font-size:20px;
   background-color: #2D3032;
   color:grey;
-  margin-top:355px;
+  margin-top:340px;
   text-align: center;
 }
 
