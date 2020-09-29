@@ -217,8 +217,8 @@ nav{
   height:100%;
 }
 .img10{
-  width:80%;
-  height:100%;
+  width:70%;
+  height:80%;
 }
 .span41{
   font-size:40px;display: inline-block;
@@ -355,7 +355,7 @@ nav{
   background: #555;
 }
 /*////////////////////////////////////////// Media Query /////////////////////////*/
-/* 
+/*
 @media screen and (max-width:1700px) and (min-width:1500px){
 
   .div12{
