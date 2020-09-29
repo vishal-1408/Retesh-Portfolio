@@ -4,6 +4,10 @@ html, body{
   height: 100%;
 }
 
+.divheight{
+  height:600px;
+}
+
 
 /*////////////////////////////// navbar */
 
@@ -23,7 +27,7 @@ nav{
 
 /* ///////////////////////////////particles.js div element */
 
-.div1{
+.div11{
   display: block;
   background-color: #f2f2f2;
   position:absolute;
@@ -34,7 +38,7 @@ nav{
   top:100px;
 }
 
-.div2{
+.div12{
   color:red;
   position: absolute;
   left:124px;
@@ -43,15 +47,17 @@ nav{
 
 .holaimg{
   width:90%;
-  height:90%;
 }
 
 #particles-js{
   background: black;
-  width:95%;
+  width:90%;
   padding:0;
   height:65%;
   z-index:-1;
+  position:relative;
+  left:250px;
+  top:135px;
 }
 
 /* ////////////////////////////////second part */
@@ -60,27 +66,49 @@ nav{
   margin-right:0px
 }
 
-.ft1{
+.manimg{
+  width: 80%;
+  margin-left: -9px;
+  margin-top: 25px;
+}
+
+.div21{
+  background-color: black;
+  height: 50%;
+  width:30%;
+  position: absolute;
+  z-index: -1;
+  top:795px;
+}
+/* P Tag */
+.div22{
+  margin: 0px;
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-bottom: -8px;
+  margin-left: 80px;
   font-family: 'Roboto Slab', serif;
-  font-size: 100px;
-  font-weight: 700;
-  text-align: center;
-  padding:50px;
+  font-size: 130px;
 }
-
-.ft2{
+/* Grey Background */
+.div23{
+  background-color:#f2f2f2;
+  height: 70%;
+  width:53%;
+  position: absolute;
+  z-index: -2;
+  left:660px;
+  margin-right:3px;
+}
+/* Typewriter P Tag */
+.div24{
+  margin-top: 110px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: -64px;
   font-family: 'Roboto Slab', serif;
-  font-size: 100px;
-  font-weight: 700;
-  text-align: center;
-  padding:50px;
+  font-size: 130px;
 }
-
-.ft p{
-  padding:50px
-}
-
-
 
 .col-sm img {
   width:125%;
@@ -90,6 +118,75 @@ nav{
 
 .pointer{
   border-right: 1px solid black;
+}
+
+/* //////////////////////////////////////////////////3rd Part - ABOUT ME/////////////////// */
+
+.aboutmeimg{
+  width:45%;
+  height:75%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+  margin-left: 40px;
+}
+
+.div31{
+  background:#2D3032;
+  position: absolute;
+  top:1500px;
+  height:80%;
+  width:40%;
+  z-index: -1;
+  opacity: 0.9;
+  left:30px
+}
+
+.div32{
+  background:#f2f2f2;
+  position: absolute;
+  top:1600px;
+  height:100%;
+   width:55%;
+   z-index: -2;
+   left:500px
+}
+
+.div33{
+  position: absolute;
+  top:1700px;
+  height:120%;
+   width:30%;
+   z-index: 1;
+   left:670px;
+   font-size:20px;
+   color:black
+}
+
+/* //////////////////////////////////////////////////4th Part - Work/////////////////// */
+
+.div41{
+  position: absolute;
+  right:90px;
+  background-color: #f2f2f2;
+  z-index:1;
+  padding-left:30px;
+  width:100%;
+}
+
+.div42{
+  position: absolute;
+  left:140px;
+  background-color: #f2f2f2;
+  z-index:1;
+  width:100%;
+}
+
+.img4{
+  width:60%;
+  height:100%;
+}
+
+.span41{
+  font-size:40px;display: inline-block;
 }
 
 /* //////////////////////////////////////////////////scrollbar/////////////////// */
@@ -121,14 +218,13 @@ nav{
 }
 /*////////////////////////////////////////// Media Query /////////////////////////*/
 
-@media only screen and (min-width: 1920px) and (max-width: 1366px){}
+@media screen and (max-width:1500px) and (min-width:900px){
 
-  .div2{
+  .div12{
     color:red;
     position: absolute;
     left:92px;
     top:100px;
   }
-
 
  }
