@@ -12,7 +12,13 @@ html, body{
 /*////////////////////////////// navbar */
 
 .nav-item{
-  margin-right:26vh;
+  display: inline-block;
+  width:200px;
+  font-size:20px;
+  box-sizing: border-box;
+}
+.nav-link:hover{
+  color:grey;
 }
 .cw{
   color:white;
@@ -24,7 +30,10 @@ html, body{
 nav{
   background-color: white;
 }
-
+.rlogo{
+  width:8%;
+  height:8%;
+}
 /* ///////////////////////////////particles.js div element */
 
 .div11{
@@ -181,13 +190,127 @@ nav{
 }
 
 .img4{
+  width:70%;
+  height:100%;
+}
+.img5{
+  width:76%;
+  height:100%;
+}
+.img6{
   width:60%;
   height:100%;
 }
 
+.img7{
+  width:60%;
+  height:100%;
+}
+.img8{
+  width:75%;
+  height:100%;
+}
 .span41{
   font-size:40px;display: inline-block;
 }
+/* ////////////////////////////////////////////////////  5th-part/////////////////////// */
+.contact{
+  margin-top:90px;
+}
+.finalimage{
+  width:100%;
+  height:100%;
+  opacity:0.9;
+  position: absolute;
+  z-index: -1;
+}
+
+#name{
+  margin-left:8px;
+  position: relative;
+  top:240px;
+  color:white;
+  font-size: 40px;
+}
+
+.phone{
+  color:white;
+  font-size: 25px;
+  position:relative;
+  top:260px;
+  margin-left:50px;
+
+}
+
+.ph{
+  color:white;
+  margin-left: 59px;
+}
+.ph:hover{
+  color:  grey;
+  text-decoration: none;
+}
+.email{
+  color:white;
+  font-size: 25px;
+  position:relative;
+  top:280px;
+  margin-left:46px;
+
+}
+
+.em{
+  color:white;
+  margin-left: 59px;
+}
+
+.em:hover{
+  color:  grey;
+  text-decoration: none;
+
+}
+
+.fa{
+   font-size: 30px;;
+}
+#faddress{
+  font-size: 25px;
+  display: block;
+}
+
+.address{
+  margin-left:46px;
+  color:white;;
+  position: relative;
+  top:300px;
+  width:30%;
+}
+.links{
+  margin-left:16px;
+  position: relative;
+  top:330px;
+  width:30%;
+}
+.links a{
+  color:white;
+  font-size: 30px;
+  margin-left:30px;
+}
+.links a:hover{
+  color:grey;
+  text-decoration: none;
+}
+/* //////////////////////////////////////////////////final */
+.final{
+  font-size:20px;
+  background-color: #2D3032;
+  color:grey;
+  margin-top:355px;
+  text-align: center;
+}
+
+
+
 
 /* //////////////////////////////////////////////////scrollbar/////////////////// */
 
@@ -240,3 +363,5 @@ nav{
   }
 
  }
+
+
