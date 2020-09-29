@@ -23,6 +23,29 @@ nav{
 
 /* ///////////////////////////////particles.js div element */
 
+.div1{
+  display: block;
+  background-color: #f2f2f2;
+  position:absolute;
+  height:560px;
+  width:1000px;
+  z-index:-2;
+  left:60px;
+  top:100px;
+}
+
+.div2{
+  color:red;
+  position: absolute;
+  left:124px;
+  top:100px;
+}
+
+.holaimg{
+  width:90%;
+  height:90%;
+}
+
 #particles-js{
   background: black;
   width:95%;
@@ -69,7 +92,7 @@ nav{
   border-right: 1px solid black;
 }
 
-/* //////////////////////////////////////////////////scrollbar */
+/* //////////////////////////////////////////////////scrollbar/////////////////// */
 
 
 /* width */
@@ -84,7 +107,7 @@ nav{
 	border-radius: 10px;
 	background-color: #F5F5F5;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
@@ -94,5 +117,18 @@ nav{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
+/*////////////////////////////////////////// Media Query /////////////////////////*/
+
+@media only screen and (min-width: 1920px) and (max-width: 1366px){}
+
+  .div2{
+    color:red;
+    position: absolute;
+    left:92px;
+    top:100px;
+  }
+
+
+ }
