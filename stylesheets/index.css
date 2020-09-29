@@ -217,7 +217,19 @@ nav{
   background: #555;
 }
 /*////////////////////////////////////////// Media Query /////////////////////////*/
+/* 
+@media screen and (max-width:1700px) and (min-width:1500px){
 
+  .div12{
+    color:red;
+    position: absolute;
+    left:123px;
+    top:100px;
+  }
+
+ } */
+
+ 
 @media screen and (max-width:1500px) and (min-width:900px){
 
   .div12{
